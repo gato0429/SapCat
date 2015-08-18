@@ -21,7 +21,7 @@
 #include "Repisas/repisaoperaciones.h"
 #include "Repisas/repisaempleadoarea.h"
 #include "Repisas/repisaempleadocargo.h"
-
+#include "Repisas/repisaplan.h"
 
 
 int main(int argc, char *argv[])
@@ -43,7 +43,8 @@ int main(int argc, char *argv[])
 
   //  RepisaClienteTipo* w=new RepisaClienteTipo();
     //   RepisaEstado* w=new RepisaEstado();
-    RepisaCliente* w=new RepisaCliente();
+    //RepisaCliente* w=new RepisaCliente();
+    RepisaPlan* w=new RepisaPlan();
 
     // RepisaClienteTipo* w=new RepisaClienteTipo();
        //RepisaEstado* w=new RepisaEstado();

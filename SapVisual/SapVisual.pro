@@ -135,7 +135,15 @@ SOURCES += main.cpp\
     Fabricas/fabricasucursales.cpp \
     Postgres/pgsucursales.cpp \
     Repisas/repisasucursales.cpp \
-    Formularios/formrepresentante.cpp
+    Formularios/formrepresentante.cpp \
+    Objetos/plan.cpp \
+    Fabricas/fabricaplan.cpp \
+    Postgres/pgplan.cpp \
+    Formularios/formplan.cpp \
+    Repisas/repisaplan.cpp \
+    Objetos/planarticulo.cpp \
+    Fabricas/fabricaplanarticulo.cpp \
+    Postgres/pgplanarticulo.cpp
 
 
 HEADERS  += mainwindow.h \
@@ -265,7 +273,15 @@ HEADERS  += mainwindow.h \
     Fabricas/fabricasucursales.h \
     Postgres/pgsucursales.h \
     Repisas/repisasucursales.h \
-    Formularios/formrepresentante.h
+    Formularios/formrepresentante.h \
+    Objetos/plan.h \
+    Fabricas/fabricaplan.h \
+    Postgres/pgplan.h \
+    Formularios/formplan.h \
+    Repisas/repisaplan.h \
+    Objetos/planarticulo.h \
+    Fabricas/fabricaplanarticulo.h \
+    Postgres/pgplanarticulo.h
 
 
 FORMS    += mainwindow.ui \
@@ -291,7 +307,8 @@ FORMS    += mainwindow.ui \
     Formularios/formoperaciones.ui \
     Formularios/formempleadoarea.ui \
     Formularios/formempleadocargo.ui \
-    Formularios/formrepresentante.ui
+    Formularios/formrepresentante.ui \
+    Formularios/formplan.ui
 
 
 

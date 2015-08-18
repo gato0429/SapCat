@@ -24,6 +24,8 @@
 #include "pgrepresentante.h"
 #include "pgaccionista.h"
 #include "pgsucursales.h"
+#include "pgplan.h"
+#include "pgplanarticulo.h"
 class Postgres:public BaseDatos
 {
 private:
@@ -62,6 +64,9 @@ public:
     FabricaRepresentante *CrearRepresentante();
     FabricaAccionista    *CrearAccionista();
     FabricaSucursales    *CrearSucursales();
+    FabricaPlan          *CrearPlan();
+    FabricaPlanArticulo  *CrearPlanArticulo();
+
 
 };
 

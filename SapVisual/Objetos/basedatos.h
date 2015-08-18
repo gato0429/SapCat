@@ -25,6 +25,8 @@
 #include "../Fabricas/fabricarepresentante.h"
 #include "../Fabricas/fabricaaccionista.h"
 #include "../Fabricas/fabricasucursales.h"
+#include "../Fabricas/fabricaplan.h"
+#include "../Fabricas/fabricaplanarticulo.h"
 using namespace std;
 
 class BaseDatos
@@ -86,6 +88,8 @@ public:
     virtual FabricaRepresentante  *CrearRepresentante()=0;
     virtual FabricaAccionista     *CrearAccionista()=0;
     virtual FabricaSucursales     *CrearSucursales()=0;
+    virtual FabricaPlan           *CrearPlan()=0;
+    virtual FabricaPlanArticulo   *CrearPlanArticulo()=0;
 };
 
 #endif // BASEDATOS_H

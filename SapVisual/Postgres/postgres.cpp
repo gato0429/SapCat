@@ -153,3 +153,13 @@ FabricaSucursales *Postgres::CrearSucursales()
 {
     return new PgSucursales();
 }
+
+FabricaPlan *Postgres::CrearPlan()
+{
+    return new PgPlan();
+}
+
+FabricaPlanArticulo *Postgres::CrearPlanArticulo()
+{
+    return new PgPlanArticulo();
+}
