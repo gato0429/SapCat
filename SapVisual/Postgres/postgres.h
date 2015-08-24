@@ -26,6 +26,7 @@
 #include "pgsucursales.h"
 #include "pgplan.h"
 #include "pgplanarticulo.h"
+#include "pgcronograma.h"
 class Postgres:public BaseDatos
 {
 private:
@@ -66,6 +67,7 @@ public:
     FabricaSucursales    *CrearSucursales();
     FabricaPlan          *CrearPlan();
     FabricaPlanArticulo  *CrearPlanArticulo();
+    FabricaCronograma    *CrearCronograma();
 
 
 };

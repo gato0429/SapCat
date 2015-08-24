@@ -27,6 +27,7 @@
 #include "../Fabricas/fabricasucursales.h"
 #include "../Fabricas/fabricaplan.h"
 #include "../Fabricas/fabricaplanarticulo.h"
+#include "../Fabricas/fabricacronograma.h"
 using namespace std;
 
 class BaseDatos
@@ -90,6 +91,7 @@ public:
     virtual FabricaSucursales     *CrearSucursales()=0;
     virtual FabricaPlan           *CrearPlan()=0;
     virtual FabricaPlanArticulo   *CrearPlanArticulo()=0;
+    virtual FabricaCronograma     *CrearCronograma()=0;
 };
 
 #endif // BASEDATOS_H

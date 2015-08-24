@@ -143,7 +143,10 @@ SOURCES += main.cpp\
     Repisas/repisaplan.cpp \
     Objetos/planarticulo.cpp \
     Fabricas/fabricaplanarticulo.cpp \
-    Postgres/pgplanarticulo.cpp
+    Postgres/pgplanarticulo.cpp \
+    Objetos/cronograma.cpp \
+    Fabricas/fabricacronograma.cpp \
+    Postgres/pgcronograma.cpp
 
 
 HEADERS  += mainwindow.h \
@@ -281,7 +284,10 @@ HEADERS  += mainwindow.h \
     Repisas/repisaplan.h \
     Objetos/planarticulo.h \
     Fabricas/fabricaplanarticulo.h \
-    Postgres/pgplanarticulo.h
+    Postgres/pgplanarticulo.h \
+    Objetos/cronograma.h \
+    Fabricas/fabricacronograma.h \
+    Postgres/pgcronograma.h
 
 
 FORMS    += mainwindow.ui \

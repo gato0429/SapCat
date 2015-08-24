@@ -163,3 +163,8 @@ FabricaPlanArticulo *Postgres::CrearPlanArticulo()
 {
     return new PgPlanArticulo();
 }
+
+FabricaCronograma *Postgres::CrearCronograma()
+{
+    return new PgCronograma();
+}
